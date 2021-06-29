@@ -3,11 +3,13 @@
   padding: 0;
 }
 
-.header {
+.header,
+h1 {
   padding: 30px;
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
+  font-weight: bold;
 }
 
 .container {
@@ -15,6 +17,7 @@
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./container.jpg);
+  overflow: scroll;
   background-position: center;
   background-size: cover;
 }
@@ -36,9 +39,30 @@ button {
   padding: 5px;
   color: white;
 }
-button:hover {
+button:hover,
+a:hover {
   color: #ffc6ff;
 }
 ::selection {
   color: #ffc6ff;
+}
+
+body {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+td,
+th {
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+a {
+  color: white;
+  font-size: 30px;
+}
+table {
+  margin: 10px 50px;
 }
