@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 30px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./container.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#city {
+  border-radius: 10px;
+  border-color: #f1f1f1;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+}
