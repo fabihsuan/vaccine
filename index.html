@@ -7,6 +7,7 @@
     <title>台灣各縣市預約疫苗</title>
     <link rel="icon" href="./covid.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="new.js"></script>
   </head>
   <body>
     <div class="container">
@@ -38,7 +39,14 @@
             <option value="lienchiangcounty">連江縣</option>
             <option value="kinmencounty">金門縣</option>
           </select>
-          <button type="submit">確認</button>
+
+          <button
+            type="button"
+            onclick="selectItemByValue(document.getElementById('city',22).scrollIntoView())"
+            ;
+          >
+            確認
+          </button>
         </form>
       </div>
       <hr />
