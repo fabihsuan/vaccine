@@ -55,13 +55,14 @@ td,
 th {
   align-items: center;
   border-bottom: 1px solid gray;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
 }
+
 a {
-  color: white;
-  font-size: 30px;
   text-decoration: none;
 }
 table {
