@@ -66,3 +66,7 @@ a {
 table {
   margin: 10px 50px;
 }
+span a,
+span {
+  color: black;
+}
