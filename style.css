@@ -62,6 +62,7 @@ th {
 a {
   color: white;
   font-size: 30px;
+  text-decoration: none;
 }
 table {
   margin: 10px 50px;
@@ -69,4 +70,10 @@ table {
 span a,
 span {
   color: black;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer {
+  text-align: right;
+  margin: 15px;
 }
