@@ -62,6 +62,9 @@ th {
   margin: 10px;
   height: 50px;
 }
+th[scope="col"] {
+  color: cadetblue;
+}
 
 a {
   text-decoration: none;
