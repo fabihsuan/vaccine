@@ -48,8 +48,6 @@ button {
 body {
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
-  max-height: 100vh;
-  max-width: 100vw;
 }
 td,
 th {
