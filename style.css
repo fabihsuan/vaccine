@@ -53,7 +53,7 @@ td,
 th {
   align-items: center;
   border-bottom: 1px solid gray;
-  /* padding: 20px; */
+  padding: 20px;
   text-align: center;
   font-size: 18px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -63,9 +63,6 @@ th {
 th[scope="col"] {
   color: cadetblue;
 }
-/* th {
-  padding: 10px;
-} */
 
 a {
   text-decoration: none;
