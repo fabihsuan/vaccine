@@ -7,6 +7,8 @@
     <title>台灣各縣市預約疫苗</title>
     <link rel="icon" href="./covid.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/5485265c68.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script
       data-ad-client="ca-pub-1947742771925011"
       async
@@ -22,7 +24,7 @@
   <body>
     <div class="container">
       <div class="header">
-        <h1>台灣各縣市預約疫苗<h1>
+        <h1 id="title">台灣各縣市預約疫苗<h1>
 <button type="button id="city onClick="document.getElementById('taipei').scrollIntoView();">台北市</button>
 <button type="button id="city onClick="document.getElementById('newtaipei').scrollIntoView();">新北市</button>
 <button type="button id="city onClick="document.getElementById('keelung').scrollIntoView();">基隆市</button>
@@ -50,7 +52,32 @@
 
       </div>
       <hr />
+      <a class="totop" href="#title" ><i class="fas fa-arrow-alt-circle-up"></i></a> 
       <div id="taipei">
+<script>
+let myButton = document.getElementById(".totop");
+toTopButton.onclick = function(){scrollToTop()};
+
+window.onscroll = function(){scroll()
+
+};
+
+function scroll(){
+  if(document.body.scrollTop >100||document.documentElement.scrollTop >100) {
+ toTopButton.style.transform = "translateY(0)"
+  }else{
+    toTopButton.style.transform = "translateY(100px)"
+  }
+  function scrollToTop(){
+    document.body.scrollTop=0;
+    document.documentElement.scrollTop = 0;
+  }
+}
+
+</script>
+
+
+
         <h1>台北市</h1>
         <table>
           <tr>

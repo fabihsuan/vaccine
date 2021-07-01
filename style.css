@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .header,
 h1 {
@@ -24,7 +27,9 @@ h1 {
   background-position: center;
   background-size: cover;
 }
-
+#title {
+  padding: 3px;
+}
 button {
   border-radius: 10px;
   border-color: #f1f1f1;
@@ -76,4 +81,19 @@ span {
 footer {
   text-align: right;
   margin: 15px;
+}
+.totop {
+  background: transparent;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  color: #6b705c;
+  bottom: 16px;
+  right: 15px;
+  border-radius: 50%;
+  font-size: 40px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s;
 }
