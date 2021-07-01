@@ -63,9 +63,9 @@ th {
 th[scope="col"] {
   color: cadetblue;
 }
-th {
+/* th {
   padding: 10px;
-}
+} */
 
 a {
   text-decoration: none;
