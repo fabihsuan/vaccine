@@ -48,6 +48,8 @@ button {
 body {
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 td,
 th {
