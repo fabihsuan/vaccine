@@ -118,7 +118,7 @@ footer {
   font-size: 30px;
   margin-top: 65%;
 }
-@media only screen and (orientation: portrait) {
+@media only screen and (orientation: portrait) and(max-device-width: 572px) {
   .main {
     display: none;
   }
