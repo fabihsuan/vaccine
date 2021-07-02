@@ -113,6 +113,12 @@ footer {
 }
 #warning {
   display: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  margin-top: 50%;
 }
 @media only screen and (orientation: portrait) {
   .container {
