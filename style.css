@@ -134,6 +134,6 @@ footer {
 img {
   width: 30px;
   background-color: transparent;
-  filter: invert(48%) sepia(30%) saturate(3207%) hue-rotate(130deg)
-    brightness(100%) contrast(80%);
+  filter: invert(48%) sepia(16%) saturate(850%) hue-rotate(80deg)
+    brightness(85%) contrast(100%);
 }
