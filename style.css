@@ -111,3 +111,19 @@ footer {
   justify-content: center;
   transition: all 0.4s;
 }
+#warning {
+  display: none;
+}
+@media only screen and (orientation: portrait) {
+  .container {
+    display: none;
+  }
+  #warning {
+    display: block;
+  }
+}
+@media only screen and (orientation: landscape) {
+  #warning {
+    display: none;
+  }
+}
