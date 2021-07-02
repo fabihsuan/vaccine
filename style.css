@@ -103,7 +103,7 @@ footer {
   height: 50px;
   color: #6b705c;
   bottom: 16px;
-  right: 5px;
+  right: 0.01rem;
   border-radius: 50%;
   font-size: 40px;
   display: block;
