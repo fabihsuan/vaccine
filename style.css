@@ -111,15 +111,15 @@ footer {
   transition: all 0.4s;
 }
 #warning {
-  color: black;
+  color: #a8dadc;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   padding: 20px;
   font-size: 30px;
-  margin-top: 50%;
+  margin-top: 80%;
 }
 @media only screen and (orientation: portrait) {
-  .container {
+  .main {
     display: none;
   }
   #warning {
@@ -130,4 +130,10 @@ footer {
   #warning {
     display: none;
   }
+}
+img {
+  width: 30px;
+  background-color: transparent;
+  filter: invert(48%) sepia(30%) saturate(3207%) hue-rotate(130deg)
+    brightness(100%) contrast(80%);
 }
