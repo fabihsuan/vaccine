@@ -102,9 +102,8 @@ footer {
   width: 50px;
   height: 50px;
   color: #6b705c;
-  bottom: 16px;
-  right: 0.01rem;
-  border-radius: 50%;
+  bottom: 10px;
+  right: 3px;
   font-size: 40px;
   display: block;
   align-items: center;
