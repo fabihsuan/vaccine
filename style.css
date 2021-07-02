@@ -4,11 +4,15 @@
     transform: rotate(90deg);
   }
 } */
-@media only screen and (orientation: portrait) {
+/* @media only screen and (orientation: portrait) {
   body {
     height: 100vw;
     transform: rotate(90deg);
   }
+} */
+div {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 * {
   margin: 0;
