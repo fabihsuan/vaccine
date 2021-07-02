@@ -112,7 +112,6 @@ footer {
   transition: all 0.4s;
 }
 #warning {
-  display: none;
   color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
